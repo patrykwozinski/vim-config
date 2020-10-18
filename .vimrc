@@ -35,7 +35,7 @@ set showmatch
 set scrolloff=4
 
 " Show below terminal (vert could show on the right)
-below terminal
+" below terminal
 
 " Speed up scrolling
 set ttyfast
