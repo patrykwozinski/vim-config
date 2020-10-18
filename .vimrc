@@ -16,8 +16,12 @@ set autoread
 " Keep some stuff in the history
 set history=100
 
+" Syntax highlighting
 syntax on
 filetype on
 filetype plugin on
 filetype indent on
+
+" Show what we're editing
+set showmode
 
