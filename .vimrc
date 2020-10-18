@@ -16,3 +16,8 @@ set autoread
 " Keep some stuff in the history
 set history=100
 
+syntax on
+filetype on
+filetype plugin on
+filetype indent on
+
