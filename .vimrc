@@ -9,3 +9,7 @@ set hlsearch
 
 " Automatically read a file that has changed on disk
 set autoread
+
+" Keep some stuff in the history
+set history=100
+
