@@ -1,7 +1,5 @@
 call plug#begin('~/.vim/plugged')
-
-colorscheme vim-material
-
+Plug 'junegunn/goyo.vim'
 call plug#end()
 
 " Show line numbers
