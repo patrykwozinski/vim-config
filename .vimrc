@@ -2,6 +2,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'gabrielelana/vim-markdown'
 call plug#end()
 
 
@@ -29,5 +30,5 @@ set hlsearch
 set encoding=utf-8
 
 " Turn on spell checker
-set spell
+" set spell
 
