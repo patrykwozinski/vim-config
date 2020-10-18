@@ -1,3 +1,9 @@
+call plug#begin('~/.vim/plugged')
+
+colorscheme vim-material
+
+call plug#end()
+
 " Show line numbers
 set number
 
