@@ -37,3 +37,9 @@ set scrolloff=4
 " Show below terminal (vert could show on the right)
 below terminal
 
+" Speed up scrolling
+set ttyfast
+
+" Show status bar
+set laststatus=2
+
