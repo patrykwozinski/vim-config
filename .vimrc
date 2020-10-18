@@ -55,3 +55,6 @@ set ignorecase
 " Show last status
 set laststatus=2
 
+" Use auto indent for writing
+set autoindent
+
