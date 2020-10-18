@@ -34,3 +34,6 @@ set showmatch
 " 4 lines off the edges of the screen
 set scrolloff=4
 
+" Show below terminal (vert could show on the right)
+below terminal
+
