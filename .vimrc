@@ -6,6 +6,13 @@ Plug 'junegunn/seoul256.vim'
 Plug 'gabrielelana/vim-markdown'
 call plug#end()
 
+set nocompatible
+syntax enable
+filetype plugin on
+
+set path+=**
+set wildmenu
+
 " Unified color scheme (default: dark)
 colo seoul256
 
