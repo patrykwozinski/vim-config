@@ -1,3 +1,6 @@
+" Use vim settings rather than vi
+set nocompatible
+
 " Show line numbers
 set number
 
