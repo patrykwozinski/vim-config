@@ -52,3 +52,6 @@ set ignorecase
 " Turn on spell checker
 " set spell
 
+" Show last status
+set laststatus=2
+
