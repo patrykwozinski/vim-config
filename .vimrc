@@ -46,6 +46,9 @@ set hlsearch
 " Encoding UTF-8
 set encoding=utf-8
 
+" Ignore cases in finder
+set ignorecase
+
 " Turn on spell checker
 " set spell
 
