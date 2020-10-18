@@ -1,48 +1,29 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin()
+Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 call plug#end()
 
-" Show line numbers
-set number
+
+" Color name (:help cterm-colors) or ANSI code
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+
+" Color name (:help gui-colors) or RGB color
+let g:limelight_conceal_guifg = 'DarkGray'
+let g:limelight_conceal_guifg = '#777777'
+
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+" Show line number
+" set number
 
 " Incrementally match the search
 set incsearch
 
 " Enable search highlighting
 set hlsearch
-
-" Automatically read a file that has changed on disk
-set autoread
-
-" Keep some stuff in the history
-set history=100
-
-" Syntax highlighting
-syntax on
-filetype on
-filetype plugin on
-filetype indent on
-
-" Show what we're editing
-set showmode
-
-" Ignore case when searching
-set ignorecase
-
-" Show matching parenthesis
-set showmatch
-
-" 4 lines off the edges of the screen
-set scrolloff=4
-
-" Show below terminal (vert could show on the right)
-" below terminal
-
-" Speed up scrolling
-set ttyfast
-
-" Show status bar
-set laststatus=2
 
 " Encoding UTF-8
 set encoding=utf-8
