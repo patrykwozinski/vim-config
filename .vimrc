@@ -31,3 +31,6 @@ set ignorecase
 " Show matching parenthesis
 set showmatch
 
+" 4 lines off the edges of the screen
+set scrolloff=4
+
