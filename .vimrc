@@ -25,3 +25,9 @@ filetype indent on
 " Show what we're editing
 set showmode
 
+" Ignore case when searching
+set ignorecase
+
+" Show matching parenthesis
+set showmatch
+
