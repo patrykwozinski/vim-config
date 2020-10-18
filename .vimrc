@@ -4,6 +4,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'gabrielelana/vim-markdown'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set nocompatible
