@@ -5,8 +5,11 @@ Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'tpope/vim-fugitive'
+"""""""""""""""""""""""""""" BEGIN Elixir's stuff
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
+Plug 'slashmili/alchemist.vim'
+"""""""""""""""""""""""""""" END Elixir's stuff
 call plug#end()
 
 set nocompatible
