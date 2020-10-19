@@ -6,6 +6,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'tpope/vim-fugitive'
 Plug 'elixir-editors/vim-elixir'
+Plug 'mhinz/vim-mix-format'
 call plug#end()
 
 set nocompatible
@@ -60,4 +61,7 @@ set laststatus=2
 
 " Use auto indent for writing
 set autoindent
+
+" Elixir's stuff
+let g:mix_format_on_save = 1
 
