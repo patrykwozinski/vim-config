@@ -9,9 +9,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 Plug 'slashmili/alchemist.vim'
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
 """""""""""""""""""""""""""" END Elixir's stuff
 call plug#end()
 
@@ -74,7 +71,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Elixir's stuff
 let g:mix_format_on_save = 1
-let g:deoplete#enable_at_startup = 1
 
 " Key mappings
 map <C-n> :NERDTreeToggle<CR>
