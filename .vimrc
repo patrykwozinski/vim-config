@@ -9,8 +9,8 @@ Plug 'elixir-editors/vim-elixir'
 call plug#end()
 
 set nocompatible
-syntax enable
-filetype plugin on
+syntax on
+filetype plugin indent on
 
 set nu rnu
 set path+=**
