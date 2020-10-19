@@ -11,6 +11,7 @@ set nocompatible
 syntax enable
 filetype plugin on
 
+set nu rnu
 set path+=**
 set wildmenu
 
