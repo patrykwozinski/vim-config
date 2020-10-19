@@ -8,6 +8,7 @@ Plug 'gabrielelana/vim-markdown'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
 """""""""""""""""""""""""""" BEGIN Elixir's stuff
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
