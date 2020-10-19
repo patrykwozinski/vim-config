@@ -15,6 +15,9 @@ Plug 'mhinz/vim-mix-format'
 Plug 'slashmili/alchemist.vim'
 Plug 'vim-test/vim-test'
 """""""""""""""""""""""""""" END Elixir's stuff
+"""""""""""""""""""""""""""" BEGIN PHP's stuff
+Plug 'StanAngeloff/php.vim'
+"""""""""""""""""""""""""""" END PHP's stuff
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
