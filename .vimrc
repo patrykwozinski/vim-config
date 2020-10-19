@@ -11,6 +11,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 Plug 'slashmili/alchemist.vim'
+Plug 'vim-test/vim-test'
 """""""""""""""""""""""""""" END Elixir's stuff
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -24,6 +25,8 @@ call plug#end()
 set nocompatible
 syntax on
 filetype plugin indent on
+
+set backspace=indent,eol,start " backspace over everything in insert mode
 
 set nu rnu
 set path+=**
